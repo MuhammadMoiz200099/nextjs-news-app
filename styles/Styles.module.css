@@ -1,0 +1,71 @@
+
+/* baseLine */
+
+.global {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 12px 100px;
+}
+
+/* Header */
+
+.navbar {
+  position: absolute;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: aliceblue;
+  gap: 30px;
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+}
+
+.navbarLink {
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbarLink:hover {
+  color: #2e2e2e;
+}
+
+/* Home */
+
+.homeContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.heroText {
+  font-size: 72px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subHeroText {
+  font-size: 16px;
+}
+
+/* page container */
+.page {
+  margin-top: 150px;
+  text-align: center;
+}
